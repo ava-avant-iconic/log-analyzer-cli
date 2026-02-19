@@ -1,0 +1,27 @@
+{
+  "name": "log-analyzer-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to parse, filter, and aggregate log files with regex patterns",
+  "main": "index.js",
+  "bin": {
+    "loganalyzer": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "log",
+    "cli",
+    "parser",
+    "analyzer",
+    "nginx",
+    "apache",
+    "json"
+  ],
+  "author": "AVA",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0"
+  }
+}
